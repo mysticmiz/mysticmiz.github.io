@@ -1,11 +1,7 @@
-body a[
-   background-color:;
-   color:#333;
-   margin:auto;
-     ]
+
   body{
 	  background-color:ddd;
-	  color:fff:
+	  color:fff;
   }
   #wrapper{
 	   max_width:800px;
@@ -29,12 +25,11 @@ body a[
 		background-color:gray;
      text-align:center;
 	 padding:20px;
-  }
-  #a{
-	  background-color:orange;
+	 
   }
   #header{
 	  width:100%;
+	  height:auto;
   }
   #big_menu{
 	    margin:4px;
@@ -49,11 +44,10 @@ body a[
 	   background-image:url(image.jpg);
 	   background_size:100%  auto;
 	   text-align:center;
-	   min-height:200px;
-	   padding:50px;
+	   min-height:100px;
+	   padding:20px;
 }
 #info{
-max_width:170px;
 	width:100%;
 	vertical-align:bottom;
 	background-color:ddd;
@@ -61,7 +55,7 @@ max_width:170px;
 	text-align:center;
          display:inline_block;
               margin:2px;
-             min_width:100px;
+			 height:auto;
 }
 
 
@@ -79,7 +73,7 @@ max_width:170px;
 	padding:20px;
 }
 	   
-@media screen and (max_width:502Px){
+@media screen and (max_width:501Px){
      #big_menu{
        display:none;
 	 }	   
