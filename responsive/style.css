@@ -7,7 +7,7 @@
 	 animation:Gradient 15s ease infinite;
 	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
 	 text-align:CENTER;
-	 color:#;
+	 color:#ddd;
     font-family:"times new roman";
  }
  
@@ -19,7 +19,6 @@
 		  color:#ddd;
 	   border-radius:2rem;
 	   position:relative:
-	   color:#ddd;
  }
  #main-title{
 	 font-size:18px;
