@@ -7,7 +7,7 @@
 	 animation:Gradient 15s ease infinite;
 	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
 	 text-align:CENTER;
-	 color:#ddd;
+	 color:#333;
     font-family:"times new roman";
  }
  
@@ -24,66 +24,66 @@
 	 font-size:18px;
 	 text-align:center;
 	 letter-spacing:4px;
-	 color:#ddd;
+	 color:#333;
  }
+ ul{
+		 position:absolute;
+		 top:50%;
+		 left:50%;
+		 paddding:0;
+		 margin:0;
+		 transform:translate(-50%,-50%);
+		 display:flex;
+		 }
+		 ul li{
+		 list-style:none;
+		 margin:0 1px;
+		 }
+		 ul li .fa{
+		 font-size:30px;
+		 line-height:60px;
+		 transition:6s;
+		 color:gold;
+		 }
+		 ul li a{
+		 position:relative;
+		 display:block;
+		 width:40px;
+		 height:50px;
+		 border-radius:50%;
+		 background-color:#333;
+		 text-align:center;
+		 transition:.6s;
+		 box-shadow:0 5px 4px rgba(0,0,0,.5);
+		 }
+		   }
  #small_menu{
 	 background
 	 padding:4px;
-
+color:#fff;
  }
  #big_menu{
 	 color:#ddd;
+ 
  }
-#social-menu ul{
-	  position: absolute;
-	  top: 50%;
-	  padding: 0;
-	  margin: 0;
-	  transform: translete(-50%, -50%);
-	  float:left;
- }
-#social-menu ul li{
-	 list-style:none;
-	 margin: 0.15px;
- }
- social-menu ul li .fa{
-	 font-size: 30px;
-	 line-height: 60px;
-	 transition: .6s;
-	 color:#ddd;
- }
- social-menu ul li .fa:hover {
-	 background-color:#fff;
- }
-  #social-menu:ul li a{
-	    position: relative;
-		display: block;
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		background-color: #fff;
-		text-align: center;
-		transition: .6s;
-		box-shadow: 0 5px 4px rgb(0,0,0,.5);
- }
- #social-menu ul li a:hover {
+  ul li a:hover {
 	 transform:translete(0, -10px);
  }
- #social-menu ul li:nth-child(1) a:hover{
+  ul li:nth-child(1) a:hover{
 	 background-color:#3b5999;
  }
-  #social-menu ul li:nth-child(2) a:hover{
+   ul li:nth-child(2) a:hover{
 	 background-color:#55acee;
   }
- #social-menu ul li:nth-child(3) a:hover{
+  ul li:nth-child(3) a:hover{
 	 background-color:#e4405f;
  }
- #social-menu ul li:nth-child(4) a:hover{
+  ul li:nth-child(4) a:hover{
 	 background-color:#007785;
  }
  #big_menu{
 	  background-color:rgb(52,46,90);
-	  color:#fff;
+	  color:#333;
 	  border:solid 2px #ddd;
  }
  #menu_button{
@@ -97,6 +97,7 @@
 	 text-align:center;
 	 height:30px;
 	 cursor:pointer;
+	 color:#fff;
  }
  #footer{
  background-color:292929;
@@ -108,11 +109,12 @@
  //width:100%;
  }
  #content{
+	 color:333;
 	 min-height:200px;
 	 text-align:center;
 	 padding:50px
 	 width:100%;
-	 color:#ddd;
+	 color:#333;
  }
  #info{
 	 max-width:170px;
