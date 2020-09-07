@@ -1,11 +1,13 @@
-body{
+
+ 
+ body{
 	 margin:0;
  background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	 background-size:400% 400%;
 	 animation:Gradient 15s ease infinite;
 	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
 	 text-align:CENTER;
-	 color:ddd;
+	 color:#ddd;
     font-family:"times new roman";
  }
  
@@ -16,12 +18,13 @@ body{
 		  // background:linear-gradient(to top,#7028C4 0%, #E5B2CA 100%);
 	   border-radius:2rem;
 	   position:relative:
+	   color:#ddd;
  }
  #main-title{
 	 font-size:18px;
 	 text-align:center;
 	 letter-spacing:4px;
-	 color:#333;
+	 color:#ddd;
  }
  #small_menu{
 	 background-color
@@ -47,7 +50,7 @@ body{
 	 color:#000;
  }
  social-menu ul li .fa:hover {
- background-color:#fff;
+	// background-color:#fff;
  }
   #social-menu:ul li a{
 	    position: relative;
@@ -82,7 +85,7 @@ body{
  }
  #menu_button{
 	 margin:2px;
-	 color:#fff;
+	 color#fff;
 	 width:80px;
 	 padding-top:10px;
 	 background-color:rgb(52,46,90);
@@ -93,7 +96,7 @@ body{
 	 cursor:pointer;
  }
  #footer{
- background-color:#333;
+ background-color:;
  color:#ddd;
  padding-top:20px;
  text-align:center;
