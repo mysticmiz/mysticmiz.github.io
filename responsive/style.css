@@ -7,7 +7,7 @@
 	 animation:Gradient 15s ease infinite;
 	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
 	 text-align:CENTER;
-	 color:#ddd;
+	 color:#;
     font-family:"times new roman";
  }
  
@@ -16,6 +16,7 @@
 		   max-width:1100px;
 		  margin: auto;
 		  // background:linear-gradient(to top,#7028C4 0%, #E5B2CA 100%);
+		  color:#ddd;
 	   border-radius:2rem;
 	   position:relative:
 	   color:#ddd;
@@ -27,8 +28,11 @@
 	 color:#ddd;
  }
  #small_menu{
-	 background-color
+	 background
 	 padding:4px;
+
+ }
+ #big_menu{
 	 color:#ddd;
  }
 #social-menu ul{
@@ -47,10 +51,10 @@
 	 font-size: 30px;
 	 line-height: 60px;
 	 transition: .6s;
-	 color:#000;
+	 color:#ddd;
  }
  social-menu ul li .fa:hover {
-	// background-color:#fff;
+	 background-color:#fff;
  }
   #social-menu:ul li a{
 	    position: relative;
@@ -96,17 +100,20 @@
 	 cursor:pointer;
  }
  #footer{
- background-color:;
+ background-color:292929;
  color:#ddd;
  padding-top:20px;
  text-align:center;
- height:80px;
+ //height:80px;
  font-family:"calibri";
+ //width:100%;
  }
  #content{
 	 min-height:200px;
 	 text-align:center;
 	 padding:50px
+	 width:100%;
+	 color:#ddd;
  }
  #info{
 	 max-width:170px;
