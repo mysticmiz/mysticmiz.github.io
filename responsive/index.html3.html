@@ -5,40 +5,69 @@
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <style>
-    body a{
-	     font-size:100pts;
-		 font-family:"times new roman";
-		 }
- body{
-	     background-color:#23a6d5;
-	   background:linear-gradient(-45deg,#2305AB);
-  font-family:"times new roman";
-   background-size:400% 400%;
-   animation:gradient 15s ease infinite;
-   }
-    #wrapper{
-		      margin:auto;
-			  max-width:800px;
-			  min-width:350px;
-			  }
-   @-webkit-keyframes gradient{
-   0%{
-     background-position:0% 50%;
-	 50%{
-	 background-position:100% 50%;
-	 }
-	 100%{
-	   background-position:0% 50%;
-	   }
-	   h1{
-	   font-weight:lighter;
-	   font-size:200px;
-	   color:#292929;
-	   text-align:center;
-	   padding-top:50px
-	   margin-bottom:0;
-	   }
-	   #socia-menu ul li a:hover {
+body{
+	 margin:0;
+ background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	 background-size:400% 400%;
+	 animation:Gradient 15s ease infinite;
+	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
+	 text-align:CENTER;
+	 color:#ddd;
+    font-family:"times new roman";
+ }
+ 
+ #wrapper{
+		   min-width:350px;
+		   max-width:1100px;
+		  margin: auto;
+		  // background:linear-gradient(to top,#7028C4 0%, #E5B2CA 100%);
+	   border-radius:2rem;
+	   position:relative:
+ }
+ #main-title{
+	 font-size:18px;
+	 text-align:center;
+	 letter-spacing:4px;
+	 color:#333;
+ }
+ #small_menu{
+	 background-color
+	 padding:4px;
+	 color:#ddd;
+ }
+#social-menu ul{
+	  position: absolute;
+	  top: 50%;
+	  padding: 0;
+	  margin: 0;
+	  transform: translete(-50%, -50%);
+	  float:left;
+ }
+#social-menu ul li{
+	 list-style:none;
+	 margin: 0.15px;
+ }
+ social-menu ul li .fa{
+	 font-size: 30px;
+	 line-height: 60px;
+	 transition: .6s;
+	 color:#000;
+ }
+ social-menu ul li .fa:hover {
+	// background-color:#fff;
+ }
+  #social-menu:ul li a{
+	    position: relative;
+		display: block;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #fff;
+		text-align: center;
+		transition: .6s;
+		box-shadow: 0 5px 4px rgb(0,0,0,.5);
+ }
+ #social-menu ul li a:hover {
 	 transform:translete(0, -10px);
  }
  #social-menu ul li:nth-child(1) a:hover{
@@ -52,33 +81,81 @@
  }
  #social-menu ul li:nth-child(4) a:hover{
 	 background-color:#007785;
- #social-menu ul li:nth-child(5) a:hover{
-	 background-color:#55acee;
-	 #social-menu ul li:nth-child(6) a:hover{
-	 background-color:#e4405f;
  }
- Li:hover{
-     color:#292929;
-	 border:2px solid #bfb6fb;
-	 transition: .5s;
+ #big_menu{
+	  background-color:rgb(52,46,90);
+	  color:#fff;
+	  border:solid 2px #ddd;
+ }
+ #menu_button{
+	 margin:2px;
+	 color#fff;
+	 width:80px;
+	 padding-top:10px;
+	 background-color:rgb(52,46,90);
+	 border-right:solid thin #ddd;
+	 display:inline-block;
+	 text-align:center;
+	 height:30px;
+	 cursor:pointer;
+ }
+ #footer{
+ background-color:#333;
+ color:#ddd;
+ padding-top:20px;
+ text-align:center;
+ height:80px;
+ font-family:"calibri";
+ }
+ #content{
+	 min-height:200px;
+	 text-align:center;
+	 padding:50px
+ }
+ #info{
+	 max-width:170px;
+	 width:100%;
+	 min-width:130px;
+	 height:200px;
+	display:inline-block;
+	 margin:4px;
+	 vertical-aligna:top;
+	 color:#ddd;
+	 padding:4px;
+ }
+ #info_header{
+	 background-color:rgb(255,72,40);
+	 color:#ddd;
+	 padding:4px;
+	 margin-bottom:10px;
+ }
+ @media only screen and (max-width 990px){
+	 #view{
+		 display:none
 	 }
-		  #main{
-		// background-color:#ffab19;
-		 font-size:14px;
-		// color:#333;
-		// width:auto;
-		// height:auto;
-		//  margin:25px auto;
-		 // border: solid 4px #bfb6fb;/
-		  } 
-		  @media screen and (max_width:502Px){
-     #big_menu{
-       display:none;
-	 }	   
+	 @media only screen and(max-width:500px){
+		 #tablet-view{
+			 display:block;
+		 }
+ @media only screen and(max-width:509px){
+	 #Big_menu{
+		  display:none;
+	 }
+ 
+ @-webkit-keyframes gradient {
+	 0%{
+		 background-position:0% 50%
+	 }
+		50%{ 
+		background-position:100% 50%
+		}
+		100%{
+			background-position:0% 50%
+		}	   
 	 @media screen and (max_width:500Px){
      #small_menu{
        display:none;
-	 }a
+	   }
 	 
 		  
 		  
