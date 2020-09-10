@@ -8,11 +8,11 @@
 	 color:#333;
     font-family:"times new roman";
 	}
-	#slide-container{
+	.slide-container{
 	  width:auto;
 	  height:auto;
 	  }
-	  #image-container{
+	  .image-container{
 	  width:auto;
 	  height:auto;
 	  position:relative;
@@ -21,28 +21,28 @@
 -webkit-transition:left 2s;
   -0-transition:left 2s;
   }
-  #slider-image{
+  .slider-image{
 	 float:left;
 	  margin:0;
 	  padding:0;
   }
-  #button-container{
+  .button-container{
 	    top:-20px;
 		position:relative;
   }
-  #slider-button{
+  .slider-button{
 	  display:left;
 	  height:10px;
 	  width:10px;
 	  border-radius:2px;
   }
-  #slider-image-1:target~ #image-container{
+  .slider-image-1:target~ #image-container{
 	  left:0px;
   }
-#slider-image-2:target~ #image-container{
+.slider-image-2:target~ #image-container{
 	left:-800px;
 }
  
-       #slider-image-3:target~ #image-container
+       .slider-image-3:target~ #image-container
 	left:-1600px;
 	}
