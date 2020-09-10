@@ -16,8 +16,7 @@ img{
 		border:1px solid #ccc;
 		width:100%;
 		height:10%;
-		border-bottom:none !important;
-		display:inline-block;
+		border-bottom:none;
 		background-color:#007bff;
 	}
 .msg-header-img
@@ -37,13 +36,13 @@ img{
  .active h4{
 		font-size:20px;
 		margin-left:20px;
-		color:#fff;
+		color:333;
 	}
  .active h6{
-          font-size:10px;
-		margin-left:10px;
+          font-size:12px;
+		margin-left:13px;
 		line-height:2px;
-		color:#fff;
+		color:gold;
 	}
 	.header-icons{
 		width:120px;
@@ -52,7 +51,7 @@ img{
 		margin-right:10px;
 	}
 .header-icons .fa{
-	color:#333;
+	color:#fff;
 	cursor:pointer;
 	margin:10px;
 }
@@ -86,9 +85,9 @@ overflow-y: auto;
 	width:57%;
 }
 .received-msg-inbox p{
-	background:#efefef none repeat scroll 0 0;
-	border-radius:10px;
-	color:#646464;
+	background:#4abb53 none repeat scroll 0 0;
+	border-radius:20px;
+	color:#fff;
 	font-size:14px;
 	margin:0;
 	padding:5px 10px 5px 12px;
@@ -107,15 +106,14 @@ overflow-y: auto;
 .outgoing-chats-msg p{
 	background:#007bff none repeat scroll 0 0;
 	color:#fff;
-	border-radius:10px;
+	border-radius:20px;
 	font-size:14px;
 	margin:0;
 	padding:5px 10px 5px 12px;
-	width:100%;
+	width:50%;
 }
 .outgoing-chat-msg{
-	float:left;
-	width:46%;
+	width:50%;
 	margin-left:45%;
 }
 .outgoing-chats-img{
@@ -124,45 +122,45 @@ overflow-y: auto;
 	float:right;
 }
 .msg-bottom{
-	//position:relative;
-	//height:10%;
-	//background-color:#007bff;
+	position:relative;
+height:10%;
+	background-color:#007bff;
 }
 .input-group{
-	//float:right;
-	//margin-top:13px;
-	//margin-right:20px;
-	//outline:none !important;
-	//border-radius:20px;
-//width:61% !important;
-//background-color#fff;
+	float:right;
+	margin-top:13px;
+	margin-right:20px;
+	outline:none !important;
+	border-radius:20px;
+width:61% !important;
+background-color#fff;
 }
 .form-control{
-	//border:none !important;
-	//border-radius:20px !important;
+	border:none !important;
+	border-radius:20px !important;
 }
 .input-group-text{
-	//background:transparent !important;
-	//border:none !important;
+	background:transparent !important;
+	border:none !important;
 }
 .input-group .fa{
-	//color:#007bff;
-	//float:right;
+	color:#007bff;
+	float:right;
 }
 .bottom-icons{
-	//float:left;
-	//margin-top:17px;
-	//width:30px!important;
-	//margin-left:22px;
+	float:left;
+	margin-top:17px;
+	width:30px!important;
+	margin-left:22px;
 }
 .bottom-icons .fa{
 	//color:#fff;
 	//padding:5px;
 }
 .form-controls:focus{
-	//border-color:none !important;
-	//box-shadow:none!important;
-	//border-radius:20px;
+	border-color:none !important;
+	box-shadow:none!important;
+	border-radius:20px;
 }
 	
 	
