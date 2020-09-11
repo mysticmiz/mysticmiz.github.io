@@ -1,0 +1,156 @@
+<html>
+<title>comment box</title>
+<link href="style8.css" rel="stylesheet" type="text/css">
+<meta name="viwport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <style>
+
+ 
+ ul{
+		 position:absolute;
+		 top:50%;
+		 left:50%;
+		 paddding:0;
+		 margin:0;
+		 transform:translate(-50%,-50%);
+		 display:flex;
+		 }
+		 ul li{
+		 list-style:none;
+		 margin:0 15px;
+		 }
+		 ul li .fa{
+		 font-size:50px;
+		 line-height:70px;
+		 transition:6s;
+		 color:#000;
+		 }
+		 ul li a{
+		 position:relative;
+		 display:block;
+		 width:60px;
+		 height:60px;
+		 border-radius:50%;
+		 background-color:#fff;
+		 text-align:center;
+		 transition:.6s;
+		 box-shadow:0 5px 4px rgba(0,0,0,.5);
+		 }
+  
+ #small_menu{
+	 background-color
+	 padding:4px;
+	 color:gold;
+ }
+
+ 
+ #big_menu{
+	  background-color:rgb(52,46,90);
+	  color:#fff;
+	  border:solid 2px #ddd;
+ }
+ #menu_button{
+	 margin:2px;
+	 color#fff;
+	 width:80px;
+	 padding-top:10px;
+	 background-color:rgb(52,46,90);
+	 border-right:solid thin #ddd;
+	 display:inline-block;
+	 text-align:center;
+	 height:30px;
+	 cursor:pointer;
+ }
+ #footer{
+ background-color:#333;
+ color:#ddd;
+ padding-top:20px;
+ text-align:center;
+ height:80px;
+ font-family:"calibri";
+ }
+ #content{
+	 min-height:200px;
+	 text-align:center;
+	 padding:50px
+ }
+ #info{
+	 max-width:170px;
+	 width:100%;
+	 min-width:130px;
+	 height:200px;
+	display:inline-block;
+	 margin:4px;
+	 vertical-aligna:top;
+	 color:#ddd;
+	 padding:4px;
+ }
+ #info_header{
+	 background-color:rgb(255,72,40);
+	 color:#ddd;
+	 padding:4px;
+	 margin-bottom:10px;
+ }
+ @media only screen and (max-width 990px){
+	 #view{
+		 display:none
+	 }
+	 @media only screen and(max-width:500px){
+		 #tablet-view{
+			 display:block;
+		 }
+ @media only screen and(max-width:509px){
+	 #Big_menu{
+		  display:none;
+	 }
+ 
+ @-webkit-keyframes gradient {
+	 0%{
+		 background-position:0% 50%
+	 }
+		50%{ 
+		background-position:100% 50%
+		}
+		100%{
+			background-position:0% 50%
+		}	   
+	 @media screen and (max_width:500Px){
+     #small_menu{
+       display:none;
+	   }  
+		  </style>
+	</head>
+	<body>
+	<h1>
+<div class="container">
+	 <h2>leave a comment</h2>
+	 <form>
+<textarea type="text" placeholder="TYPE YOUR COMMENT.."name="msg" required=""></textarea>
+	 <div class="btn">
+	 <input type="submit" value="comment">
+	 <button id='clear'>cancel</button>
+	 </div>
+	 </form>
+	 </div>
+	
+   <div class="socia-menu">
+
+   <ul>
+    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="https://www,twitter.com/"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="https://www.amaozon.com/"><i class="fa fa-amaozon"></i></a></li>
+	  <li><a href="https://www.jumia.com/"><i class="fa fa-jumia"></i></a></li>
+<li><a href="https://www.instagram.com/invites/contact/? i=ypbmbuhxlw7f&utm-content=gsour21"><i class="fa fa-instagram"></i></a></li>
+	 </ul>
+	 </div>
+	</div>
+
+    
+	 
+	 <script src="plugin.js"></script>
+</body>
+</html>
