@@ -1,3 +1,4 @@
+
 var feild=document.querySelector('textarea');
 var backup=feild.getAttribute('placeholder');
 var btn=document.querySelector('.btn');
@@ -16,3 +17,4 @@ clear.onclick=function(){
 	btn.style.display='none';
 	feild.value='';
 }
+
