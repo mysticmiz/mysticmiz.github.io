@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=roboto:400,700&display=swap");
  body{
-height:100%;
-width:100%;
-background-color:#;
-font-family:"times new roman";
-font-size:20px;
+ margin:0;
+ background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	 background-size:400% 400%;
+	 animation:Gradient 15s ease infinite;
+	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
+	 //text-align:CENTER;
+	 color:#ddd;
+    font-family:"times new roman";
+ }
+
+
 
 }
 ul{
