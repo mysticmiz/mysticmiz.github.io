@@ -10,8 +10,12 @@ left:50%;
 font-family:"times new romans";
 font-size:60px;
 color:#333;
-z-index:"5";
+z-index:"9999";
+
 }
+
+
 textarea{
 	size:400px;
+	font-stretch:20px;
 }
