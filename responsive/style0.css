@@ -1,5 +1,5 @@
 body{
-	position:absolute;
+	//position:absolute;
 background-color:#ddd;
 max-width:850px;
 min-width:500px;
@@ -10,7 +10,7 @@ left:50%;
 font-family:"times new romans";
 font-size:30px;
 color:#333;
-z-index:"9999";
+
 
 }
 
