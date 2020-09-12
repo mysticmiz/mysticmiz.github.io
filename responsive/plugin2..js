@@ -8,21 +8,23 @@ unction render(data){
 	 
  var coment= [];
 
-	 if(!localStorage.comentData){
-localStorage.comentData = [];
-	 }else{
-	 coment = JSON.parse(localStorage.comentData);
-	 }
-	 for(var i=0;i<coment.length;i**){
-	 render(coment[i]);
- 
+	 function passvalues()
+ {
+  var firstname=document.getElementById("txt").value;
+   var firstname=document.getElementById("name").value;
+    var firstname=document.getElementById("date").value;
+	 var firstname=document.getElementById("bodyText").value;
+    localStorage.setItem("textvalue",firstname);
+	  return false;
+	  }
+	   
  }
  
  $('#addComent'),click(function(){
 	 var add0bj = {
-		 "name": $('#name').val(),
-		 "date": $('#date').val(),
- "body": $('#bodytext').val(),
+		 "name": $('name').val(),
+		 "date": $('date').val(),
+ "body": $('bodytext').val(),
 	 };
 coment.push(add0bj);
 localStorage.comentData = JS0N.stringify(coment);
@@ -34,7 +36,7 @@ render(add0bj);
  }):
 var coment =
 function openChat(){
-documen.getElementsById('.chatbox").style.display='block';
+document.getElementsById('.chatbox").style.display='block';
 $(.btn-chat').hide();
 }
 function closeChat(){

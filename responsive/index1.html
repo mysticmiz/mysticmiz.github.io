@@ -1,0 +1,34 @@
+<html>
+<head>
+<link href="style0.css" rel="stylesheet" type="text/css">
+<script>
+ function passvalues()
+ {
+  var firstname=document.getElementById("txt").value;
+   var firstname=document.getElementById("name").value;
+    var firstname=document.getElementById("date").value;
+	 var firstname=document.getElementById("bodyText").value;
+    localStorage.setItem("textvalue",firstname);
+	  return false;
+	  }
+	  
+	  
+	  </script>
+
+</head>
+<body>
+<center>
+<form action="index77.html">
+  <h5>add coment</h5>
+  <input type="text" id="txt"/>
+  <input type="text" id="name" /><br /><br />
+   <input type="date" id="date" /><br /><br />
+   <textarea rows="5" col="30" id="bodyText" placeholder='write your name and comment here '></textarea><br /><br />
+    <input type="submit"  value="comment" onclick="passvalues();"/>
+	</form>
+	</center>
+	
+	 </body>
+	 </html>
+	
+

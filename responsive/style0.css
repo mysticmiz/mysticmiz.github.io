@@ -1,0 +1,15 @@
+body{
+	//position:absolute;
+background-color:#ddd;
+width:100%;
+height:auto;
+top:50%;
+left:50%;
+font-family:"times new romans";
+font-size:30px;
+color:#333;
+z-index:"5";
+}
+textarea{
+	size:400px;
+}
