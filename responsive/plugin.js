@@ -1,20 +1,5 @@
-
-var feild=document.querySelector('textarea');
-var backup=feild.getAttribute('placeholder');
-var btn=document.querySelector('.btn');
-var clear=document.getElementById('clear');
-
-feild.onfocus=function(){
-this.setAttribute('placeholder', '' );
-this.style.borderColor='#333'
-btn.style.display='block';
-}
-feild.onblur=function(){
-this.setAttribute('placeholder', backUp)
-this.style.borderColor='#aaa'
-}
-clear.onclick=function(){
-	btn.style.display='none';
-	feild.value='';
-}
-
+var frmvalidator=new
+Validator("contactform");
+frmvalidator.addValidation("name","req","mystic");
+frmvalidator.addValidation("email","req","www.michaeldaniel7@gmail.com"):
+frmvalidator.addValidation("email","email"www.michaeldaniel7@gmail.com");

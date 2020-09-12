@@ -1,11 +1,8 @@
-$(localstorage.commentData){
-}
-unction render(data){
+function render(data){
  var html ="<div class='comentBox'><div class='leftpanelImg'><img src=https://placeholdit.imgix.net/~text?w=100%h=
 	 $('#container').append(html);
  }
  $(document).ready(function(){
-	 
  var coment= [];
 
 	 if(!localStorage.comentData){
@@ -32,15 +29,4 @@ render(add0bj);
   $('#bodytext').val('');
  });
  }):
-var coment =
-function openChat(){
-documen.getElementsById('.chatbox").style.display='block';
-$(.btn-chat').hide();
-}
-function closeChat(){
-documen.getElementsById('.chatbox").style.display='none';
-$(.btn-chat').show();
-$('.form').submit(function(){
-var text-$(this).find("textarea[name='msg']").val();
-alert(text);
-)};
+		 
