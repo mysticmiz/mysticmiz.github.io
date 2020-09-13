@@ -1,5 +1,5 @@
 function render(data){
- var html ="<div class='comentBox'><div class='leftpanelImg'><img src=https://placeholdit.imgix.net/~text?w=100%h=
+ var html ="<div class='comentBox'><div class='leftpanelImg'><img src='https://placeholdit.imgix.net/~text?w=100&h=
 	 $('#container').append(html);
  }
  $(document).ready(function(){
@@ -10,6 +10,7 @@ localStorage.comentData = [];
 	 }else{
 	 coment = JSON.parse(localStorage.comentData);
 	 }
+	 
 	 for(var i=0;i<coment.length;i**){
 	 render(coment[i]);
  
