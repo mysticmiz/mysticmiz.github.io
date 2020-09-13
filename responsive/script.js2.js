@@ -1,5 +1,5 @@
 function render(data){
- var html ="<div class='comentBox'><div class='leftpanelImg'><img src=https://placeholdit.imgix.net/~text?w=100%h=
+ var html ="<div class='comentBox'><div class='leftpanelImg'><img src=https://placeholdit.imgix.net/~text?w=100&h=
 	 $('#container').append(html);
  }
  $(document).ready(function(){
@@ -28,5 +28,5 @@ render(add0bj);
 		  $('#date').val('dd/mm/yy');
   $('#bodytext').val('');
  });
- });
+ }):
 		 
