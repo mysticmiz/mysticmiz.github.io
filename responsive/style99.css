@@ -14,7 +14,7 @@ body{
   }
 .product-small-img img
 {
-height:92px;
+height:99px;
 margin:10px 0;
 cursor:pointer;
 display:block;
@@ -39,42 +39,9 @@ top:50px;
 }
 .img-container img
 {
-height:500px;
+height:400px;
 }
 .img-container{
 float:right;
 padding:10px;
 }
-.product2-small-img2 img
-{
-height:92px;
-margin:10px 0;
-cursor:pointer;
-display:block;
-opacity: .6;
-
-}
-.product2-small-img2 img:hover{
-opacity:1;
-}
-.product2-small-img2 img
-{
-   float:right;
-}
-
-/.product
-{
-top:50px;
-left:50px;
-transform:translate(-50%,-50%);
-position:absolute;
-}
-.img2-container2 img
-{
-height:500px;
-}
-.img2-container2{
-float:right;
-padding:10px;
-}
-
