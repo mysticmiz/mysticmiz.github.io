@@ -45,7 +45,7 @@ height:500px;
 float:right;
 padding:10px;
 }
-.product-small-img img
+.product2-small-img2 img
 {
 height:92px;
 margin:10px 0;
@@ -54,10 +54,10 @@ display:block;
 opacity: .6;
 
 }
-.product-small-img img:hover{
+.product2-small-img2 img:hover{
 opacity:1;
 }
-.product-small-img img
+.product2-small-img2 img
 {
    float:right;
 }
@@ -69,11 +69,11 @@ left:50px;
 transform:translate(-50%,-50%);
 position:absolute;
 }
-.img-container img
+.img2-container2 img
 {
 height:500px;
 }
-.img-container{
+.img2-container2{
 float:right;
 padding:10px;
 }
