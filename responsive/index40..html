@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+       #dialogoverlay{
+     display:none;
+     opacity:.8;
+     position:fixed;
+    top:0px;
+    left:0px;
+    background:#ddd;
+     width:100%;
+     z-index:10;
+   }
+   #dialogbox{
+   display:none;
+   position:fixed;
+     background:#000;
+    border-radius:7px;
+   width:550px;
+    z-index:10;
+}
+   #dialogbox > div { background:#fff; margin:8px; }
+    #dialogbox > div > #dialogboxhead{ background: #666; font-size:20px; padding:10px; color:#ccc; }
+   #dialogbox > div > #dialogboxbody{ background: #333; padding:20px; color:#fff; }
+   #dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+</style>
+</head>
+<body>
+      <div id="dialogoverlay"></div>
+      <div id="dialogbox">
+</div>
+  <div>
+<div id="dialogboxhead"></div>
+<div id="dialogboxbody"></div>
+<div id="dialogboxfoot"></div>
+</div>
+<h1>My web document content.....</h1>
+<h2>My web document content......</h2>
+<button onclick="alert('you look very pretty today.')"> Initiate Default Alert</button>
+<button onclick="Alert.render(you look very pretty today.')">custom Alert</button>
+<h3>web document content......</h3>
+	
+	
+	<script src="script7.js"></script>
+</body>
+</html>
+	 
+	 
+	

@@ -1,5 +1,6 @@
  function render(data){
- var html = "<div class='comentBox'><div class='leftpanelImg'><img src='https://placeholdit.imgix.net/~text?w=100&h' /></div>
+ var html = '<div class='comentBox'></div>
+ <div class='leftpanelImg'><img src='https://placeholdit.imgix.net/~text?w=100&h' /></div>
 	 $('#container').append(html);
  }
  $(document).ready(function(){
@@ -28,6 +29,4 @@ render(add0bj);
   $('#bodyText').val('');
  });
  });
-		 for (let i = 0; i < 5; ++i) {
-  console.log(i);
-}
+		

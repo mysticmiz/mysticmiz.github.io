@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Image gallery</h1>
+<div id="content-wrapper">
+
+<div class="column">
+<img id="featured" src="images/image1.jpg">
+<div id="slide-wrapper">
+    <img id="slideLeft" class="arrow" src="arrow-left.jpg">
+  
+<div id="slider">
+     <img class="thumbnail active" src="images/image21.jpg">
+	
+     <img class="thumbnail" src="images/image2.jpg">
+     <img class="thumbnail" src="image/image3.jpg">
+
+       <img class="thumbnail" src="images/image3.jpg">
+
+       <img class="thumbnail" src="images/001.jpg">
+      <img class="thumbnail" src="images/002.jpg">
+       <img class="thumbnail" src="images/003.jpg">
+	  </div>
+	  
+	  <img id="slideLeft" class="arrow" src="images/arrow.right.png">
+</div>
+ </div>
+ <div class="column">
+ <h1>beautiful dress</h1>
+ <hr>
+  <h3>$70.00</h3>
+   <p>product.description is very good</p>
+  
+  <input value="1" type="number">
+  <a class="btn btn-dark" href="#">Add to cart</a>
+  </div>
+</div> 
+
+
+<script>
+
+let thumbnails = document.getElementsByClassName('thumbnail')  
+   
+let activeImages = document.getElementsByClassName('active')
+
+   for (var i=0; i < thumbnails.length; i++){
+ 
+  thumbnails[i].addEventListener('mouseover', function(active){
+  console.log(activeImages)
+  
+  if (activeImages.length > 0){
+          activeImages[0].classlist.remove('active')
+		   }
+			this.classlist.add('active'){
+			document.getElementsById('featured').src = this.src
+  
+	
+	)}
+	let buttonRigt = document.getElementById('slideRight');
+	let buttonLeft = document.getElementById('slideLeft');
+	
+	buttonLeft.addEventListener('click', function(){
+		document.getElementById('slider').scrollRight -= 180
+		
+	})
+	
+	buttonRight.addEventListener('click', function(){
+		document.getElementById('slider').scrollLeft   = 180;
+	
+		
+	})
+	
+</scipt>
+
+   
+ </body>
+	</html>
