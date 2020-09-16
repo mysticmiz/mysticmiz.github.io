@@ -17,9 +17,9 @@ localStorage.comentData = [];
  
  $('#addComent'),click(function(){
 	 var add0bj = {
-		 "name": $('#name').val(),
-		 "date": $('#date').val(),
- "body": $('#bodyText').val(),
+		 "name": $('#name').val();
+		 "date": $('#date').val();
+ "body": $('#bodyText').val();
 	 };
 coment.push(add0bj);
 localStorage.comentData = JS0N.stringify(coment);

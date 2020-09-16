@@ -14,11 +14,12 @@ body{
   }
 .product-small-img img
 {
-height:99px;
-margin:10px 0;
+height:90px;
+margin:18px 0;
 cursor:pointer;
 display:block;
 opacity: .6;
+padding
 
 }
 .product-small-img img:hover{
@@ -39,9 +40,25 @@ top:50px;
 }
 .img-container img
 {
-height:400px;
+height:350px;
 }
 .img-container{
 float:right;
 padding:10px;
 }
+}
+ #small_menu{
+	 background-color
+	 padding:4px;
+	 color:#ddd;
+ }
+#social-menu ul{
+	  position: absolute;
+	  top: 50%;
+	  padding: 0;
+	  margin: 0;
+	  transform: translete(-50%, -50%);
+	  float:left;
+ }
+
+
