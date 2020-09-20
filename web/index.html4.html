@@ -11,22 +11,30 @@
 		 }
 	
 	  body{
+	  background:fff;
 	   margin:0;
- background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+ //background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	 background-size:400% 400%;
 	   animation:Gradient 15s ease infinite;
 	 box-shadow:1px 2px 60px rgb(0,0,0,0.4);
 	 // background-color:#d8d8d8;
 font-family:"times new roman";
 //font-family:"calibri";
-font-family:"tahoma";
+//font-family:"tahoma";
 		 font-size:30px;
 		 min-height:500px;
 		}
-		/#img{
-		width:800px;
+		#img{
+		width:100%;
 		min-width:350px;
+		/position:absolute;
+		font-size:40px;
+		#menu{
+		 font-family:"tahoma";
+		 font-size:20px;
 		}
+		
+	  }
 		ul{
 		 position:absolute;
 		 top:30%;
@@ -76,8 +84,12 @@ ul li a:hover {
 } 
 		 #wrapper{
 		      margin:auto;
-			  max-width:800px;
+			  /max-width:800px;
 			  min-width:350px;
+			  background:#007d65;
+			  text-align:center;
+			  color:fff;
+			  padding:17px
 			  }
 			  
 		   #main_title{
@@ -85,7 +97,12 @@ ul li a:hover {
 		   font-size:14px;
 		   letter-spacing:2px;
 		   }
- 
+          #menu{
+		  background:333;
+		  //color:fff;
+		  font-size:30px;
+		  font-family:"calibri";
+		  }
 #small_menu{
 		    background-color:4abb53;
 		      // background-color:rgb(52,46,90);
@@ -131,14 +148,17 @@ ul li a:hover {
 	<h2><a href="https://www.amazon.com" type="entertainment">AMAZON-MARKETING</a></h2>
 	</div>
 	</div>
-	<div id="img">
- <img src="pr2.jpg">
+	
+ <div id="wrapper">
+ <p><h1>PUZZLE OF THE MIND</h1> </P>
  </div>
+ <div id="menu">
  <h2>Lets have some fun</h2>
- <h5>Is riddle time!!!!!!!!!!</h5>
- <h6>i want to know how good you are thinking and</h6>
- <p><h6>solving puzzles</h6></p>
- <p><h6>What are the answers to all this riddles</p></h6>
+ <h4>Is riddle time!!!!!!!!!!</h4>
+ <h4>i want to know how good you are thinking and</h4>
+ <p><h4>solving puzzles</h4></p>
+ <p><h5>What are the answers to all this riddles</p></h5>
+ </div>
  1.) I never was, am always to be. No one ever saw me, nor ever will. And yet I am the confidence of all, To live and breathe on this terrestrial ball. What am I?
 
 
@@ -165,7 +185,10 @@ For love of me, easily beaten, never free. What am I?</p>
 
 
 <P>9.) Walk on the living, they don’t even mumble. Walk on the dead, they mutter and grumble. What are they?</P>
-
+<P><form action="indexx.html">
+   <button type="submit">CLICK HERE FOR MORE
+   </button>
+   </form>
  
  <h2>DO YOU BELIEVE IN LOVE.. ?</h2>
  <div id="video">
