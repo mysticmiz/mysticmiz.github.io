@@ -1,0 +1,21 @@
+body{
+	//position:absolute;
+background-color:#ddd;
+max-width:850px;
+min-width:500px;
+width:100%;
+height:auto;
+top:50%;
+left:50%;
+font-family:"times new romans";
+font-size:30px;
+color:#333;
+
+
+}
+
+
+textarea{
+	size:400px;
+	font-stretch:20px;
+}

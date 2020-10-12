@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=roboto:400,700&display=swap");
+body{
+// display:flex;
+float:right;
+ //justify-content:center;
+align-items:center;
+height:100vh;
+background-color:f5f6f6;
+font-family:"times new roman";
+padding-top:270px;
+}
+// .btn-chat{
+	   border:7px;
+	  padding-bottom:20px;
+	   text-transform:uppercase;
+	   font-size:20px;
+	   position:absolute;
+	   bottom:2%;
+	   right:2%;
+	   z-index:1;
+   }
+   .form-container{
+	   max-width:300px;
+	   padding:10px;
+	   background:#fff;
+   }
+   .form-container textarea{
+	   width:100%;
+	   min-height:200px;
+	   border:none;
+	   padding:10px;
+	   margin:5px 0 22px 0;
+	   background:#f1f1f1;
+	   font-size:15px;
+   }
+   .form-container textarea:focus{
+	   background:#ddd;
+	   outline:none
+	   ;
+   }
+   .btn-send, .btn-close{
+	   padding:;
+	   font-size:18px;
+	   margin-bottom:10px;
+	   border:none;
+	   width:100%;
+   opacity:0.9;
+   }
+   .btn-send,.btn-close,.btn-chat:hover{
+	   opacity:1;
+   }
+   
+	  
+   h2{
+	   background:#333;
+	   color:white;
+	   width:100%;
+	   text-align:center;
+	   padding:10px;
+   }
+   
+   input[type="submit"],button{
+padding:10px 15px;
+border:none;
+outline:none;
+border-radius:5px;
+text-transform:uppercase;
+font-weight:bold;
+cursor:pointer;
+}
+input[type"submit"]{
+color:#fff;
+}
+
+	  
